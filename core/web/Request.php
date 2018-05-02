@@ -18,19 +18,13 @@ class Request extends \core\base\Base{
   }
 
   public function handle( $route ){
-
-    $controller = \Core::$app->controller::get( $route );
-    $action = $controller->action;
-    $params = $action->params;
-
-    return $controller->runAction( $action->id, $params );
+    \Core::$app->controller = \Core::$app->controller::get( $route );
+    return \Core::$app->controller->runAction( \Core::$app->controller->actionId, \Core::$app->controller->actionParams );
   }
 
   public function parse(){
     $params = $_GET;
     $path = $this->path;
-
-    // match
 
     return [ $path, $params ];
   }

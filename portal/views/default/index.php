@@ -1,1 +1,1 @@
-index
+default index
