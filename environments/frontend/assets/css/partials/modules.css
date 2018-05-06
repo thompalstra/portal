@@ -1,0 +1,27 @@
+.wrap{
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media ( min-width: 320px ){ }
+
+@media ( min-width: 375px ){ }
+
+@media ( min-width: 425px ){ }
+
+@media ( min-width: 768px ){
+  .wrap{
+    width: 768px;
+  }
+}
+@media ( min-width: 1024px ){
+  .wrap{
+    width: 1024px;
+  }
+}
+
+@media ( min-width: 1440px ){
+  .wrap{
+    width: 1440px;
+  }
+}

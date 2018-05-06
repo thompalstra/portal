@@ -1,0 +1,3350 @@
+{
+  "time":"2018-05-06 11:44:55",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:55",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:56",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:56",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:56",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:56",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:56",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:56",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:56",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:56",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:56",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:56",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:56",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:56",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:56",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:56",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:56",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:57",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:58",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:58",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:44:59",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:02",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:02",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:02",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:02",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:02",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:02",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:02",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:02",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:02",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:02",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:02",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:02",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:02",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:02",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:02",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:02",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:03",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:04",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:05",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:18",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:18",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:18",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:18",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:22",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:23",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:24",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:24",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:24",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:24",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:24",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:24",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:24",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:24",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:30",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:30",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:30",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:30",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:30",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:30",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:30",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:30",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:31",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:31",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:31",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:31",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:31",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:31",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:31",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:31",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:33",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:35",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:35",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:35",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:35",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:35",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:35",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:35",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:35",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:35",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:35",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:35",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:35",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:35",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:35",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:35",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:35",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:45:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:46:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:46:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:46:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:46:01",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:46:50",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:46:50",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:17",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:17",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:17",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:17",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:25",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:25",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:25",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:25",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:47:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:48:55",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:48:55",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:49:11",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:49:11",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:49:17",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:49:17",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:49:17",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:49:17",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:49:18",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:49:18",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:49:18",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:49:18",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:49:42",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:49:42",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:49:42",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:49:42",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:00",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:00",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:00",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:00",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:01",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:01",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:01",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:01",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:06",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:06",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:06",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:06",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:25",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:25",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:25",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:25",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:46",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:46",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:47",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:51:47",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:17",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:17",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:17",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:17",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:23",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:23",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:23",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:23",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:32",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:32",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:32",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:32",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:32",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:42",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:42",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:42",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:42",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:42",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:42",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:42",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:42",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:58",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:58",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:58",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:58",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:58",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:58",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:58",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:52:58",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:53:17",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:53:17",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:53:17",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:53:17",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:53:17",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:53:17",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:53:17",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:53:17",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:54:06",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:54:06",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:54:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:54:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:54:06",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:54:06",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:54:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:54:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:54:26",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:54:26",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:54:27",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:54:27",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:55:08",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:55:08",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:55:08",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:55:08",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:55:15",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:55:15",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:55:15",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:55:15",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:55:43",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:55:43",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:55:43",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:55:43",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:56:26",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:56:26",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:56:26",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:56:26",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:57:30",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:57:30",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:57:30",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:57:30",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:59:04",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:59:04",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:59:04",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 11:59:05",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:02",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:02",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:02",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:02",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:06",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:06",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:06",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:06",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:06",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:21",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:21",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:21",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:21",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:45",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:45",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:45",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:45",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:45",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:45",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:45",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:45",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:45",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:45",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:45",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:45",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:58",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:58",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:58",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:58",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:58",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:01:58",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:21",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:21",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:21",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:21",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:21",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:27",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:27",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:27",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:27",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:27",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:27",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:27",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:27",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:27",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:27",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:27",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:27",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:31",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:31",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:31",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:31",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:31",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:31",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:36",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:36",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:36",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:36",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:44",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:44",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:44",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:44",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:44",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:44",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:45",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:45",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:45",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:45",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:45",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:02:45",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:00",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:00",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:00",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:00",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:00",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:34",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:34",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:34",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:34",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:34",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:36",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:36",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:36",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:36",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:36",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:37",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:42",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:42",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:42",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:42",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:49",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:49",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:49",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:49",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:49",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:49",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:49",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:49",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:49",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:49",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:49",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:49",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:53",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:53",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:53",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:53",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:53",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:53",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:53",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:53",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:53",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:53",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:53",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:53",
+  "message":"MyCompany\\MyPluginName\\Setup::handleRouteAfter( \\core\\base\\Event $event )",
+  "level":4
+}, 
+{
+  "time":"2018-05-06 12:03:54",
+  "message":"MyCompany\\MyPluginName\\Setup::parseRouteBefore( \\core\\base\\Event $event )",
+  "level":4
+}, 

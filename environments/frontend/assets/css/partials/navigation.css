@@ -1,0 +1,19 @@
+html, body{
+
+}
+
+.nav{
+
+}
+.nav.nav-default{
+
+}
+.nav.nav-default ul{
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+.nav.nav-default ul li{
+  text-align: center;
+  flex: 1;
+}
