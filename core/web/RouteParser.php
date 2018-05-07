@@ -1,8 +1,9 @@
 <?php
 namespace core\web;
 class RouteParser extends \core\base\Base{
-  public static function parse(){
-    $event = $this->dispatchEvent( new \core\base\Event( "route.parse.before", [] ) );
+  public function parse(){
+
+    $event = $this->dispatchEvent( new \core\base\Event( "route.parse.before", [ 'context' => $this ] ) );
     if( $event->isPrevented ){
       return;
     }
@@ -68,7 +69,7 @@ class RouteParser extends \core\base\Base{
       }
     }
 
-    $event = $this->dispatchEvent( new \core\base\Event( "route.parse.after", [] ) );
+    $event = $this->dispatchEvent( new \core\base\Event( "route.parse.after", [ 'context' => $this ] ) );
 
     if( $event->isPrevented ){
       return;

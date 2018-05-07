@@ -9,18 +9,26 @@ class Controller extends \core\base\Base{
   }
 
   public function render( $fp, $data = [] ){
+
+    $dir = \Core::$app->dir;
+    $ds = \Core::$app->ds;
+
     $viewClass = \Core::$app->web['view']['className'];
+
     ( new $viewClass() )->render( $fp, $data );
   }
 
   public function runAction( $actionId, $params = [] ){
+
+    if( $this->dispatchEvent( new \core\base\Event( "action.before", [ 'context' => $this ] ) )->isPrevented ){ return; }
+
     $actionName = "action" . str_replace( " ", "", ucwords( str_replace("-", " ", str_replace("_", " ", $actionId ) ) ) );
     if( method_exists( $this, $actionName ) ){
       return call_user_func_array( [ $this, $actionName ], $params );
     }
-    var_dump( $this, $actionName ); die;
     return call_user_func_array( [ $this, 'runError' ], [ "Page not found (404.2)" ] );
   }
+
   public function runError( $message ){
     $environmentDirectory = \Core::$app->environment->directory;
     $environmentName = \Core::$app->environment->name;
@@ -30,11 +38,16 @@ class Controller extends \core\base\Base{
     $controllerName = str_replace( " ", "", ucwords( str_replace("-", " ", str_replace("_", " ", $controllerId ) ) ) ) . "Controller";
     $controllerNameSpace = str_replace("/", "\\", "{$environmentName}/controllers/{$controllerName}" );
     $actionName = "action" . str_replace( " ", "", ucwords( str_replace("-", " ", str_replace("_", " ", $actionId ) ) ) );
+    $path = "";
 
-    if( class_exists( $controllerNameSpace ) ){
-      \Core::$app->controller = new $controllerNameSpace();
-
-      return call_user_func_array( [ \Core::$app->controller, 'runAction' ], [ $actionId, [ 'exception' => new \Exception( $message, 404 ) ] ] );
+    if( class_exists( $controllerNameSpace ) && method_exists( $controllerNameSpace, 'actionError' ) ){
+      \Core::$app->controller = new $controllerNameSpace( [
+        'id' => $controllerId,
+        'actionId' => $actionId,
+        'path' => $path,
+        'layout' => \Core::$app->web['controller']['layoutDefault']
+      ] );
+      return call_user_func_array( [ \Core::$app->controller, 'actionError' ], [ 'exception' => new \Exception( $message, 404 ) ] );
     }
     echo "Error running error"; exit();
   }

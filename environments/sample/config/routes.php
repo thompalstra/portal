@@ -1,6 +1,5 @@
 <?php
 return [
-  // "/" => "std/dashboard",
   [ '\sample\components\RouteComponent' => [
       'a' => 'a',
       'b' => 'b'

@@ -1,3 +1,20 @@
+
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+@import 'https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto';
+
 @import "partials/header.css";
 @import "partials/navigation.css";
-@import "partials/modules.css";
+
+@import "components/modules.css";
+@import "components/variables.css";
+@import "components/themes.css";
+
+html, body{
+  padding: 0;
+  margin: 0;
+  font-family: Lato, Roboto, Open Sans, sans-serif;
+}
+body{
+  height: 100vh;
+  background-color: #f2f2f2;
+}

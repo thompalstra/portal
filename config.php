@@ -3,7 +3,7 @@ return [
   'log' => [
     'className' => '\core\base\Logger',
     'maxFileSize' => ( 1000 * 100 ), // in bytes
-    'levels' => [ 1,2,3,4 ]
+    'levels' => [ 1,2,3 ]
   ],
   'web' => [
     'environment' => [

@@ -1,10 +1,5 @@
 <?php
 return [
-  'log' => [
-    'className' => '\core\base\Logger',
-    'maxFileSize' => ( 1000 * 100 ), // in bytes
-    'levels' => [ 1,2,3,4 ]
-  ],
   'web' => [
     'environment' => [
       'className' => '\core\web\Environment',
@@ -20,7 +15,7 @@ return [
     'view' => [
       'className' => '\core\web\View',
       'allowedExtensions'  => [
-        '', '.php', '.html'
+        '.php', '.html'
       ]
     ],
     'routeHandler' => [

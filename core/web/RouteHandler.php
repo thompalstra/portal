@@ -1,8 +1,8 @@
 <?php
 namespace core\web;
 class RouteHandler extends \core\base\Base{
-  public static function handle( $route ){
-    if( $this->dispatchEvent( new \core\base\Event( "route.handle.before", [] ) )->isPrevented ){ return; }
+  public function handle( $route ){
+    if( $this->dispatchEvent( new \core\base\Event( "route.handle.before", [ 'context' => $this ] ) )->isPrevented ){ return; }
 
     $environmentDirectory = \Core::$app->environment->directory;
     $environmentName = \Core::$app->environment->name;
@@ -32,9 +32,7 @@ class RouteHandler extends \core\base\Base{
     $controllerNameSpace = str_replace("/", "\\", "{$environmentName}/controllers/{$path}{$controllerName}" );
     $actionName = "action" . str_replace( " ", "", ucwords( str_replace("-", " ", str_replace("_", " ", $actionId ) ) ) );
 
-
-
-    if( $this->dispatchEvent( new \core\base\Event( "route.handle.after", [] ) )->isPrevented ){ return; }
+    if( $this->dispatchEvent( new \core\base\Event( "route.handle.after", [ 'context' => $this ] ) )->isPrevented ){ return; }
 
     if( class_exists( $controllerNameSpace ) ){
       \Core::$app->controller = new $controllerNameSpace( [

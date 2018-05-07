@@ -19,7 +19,8 @@ $options = [
   ],
   "Runs routes via other means" => [
     "/my-route-component" => "Runs route via a class of \core\web\RouteComponent",
-    "/logout" => "Runs route via an installed plugin",
+    "/logout" => "Runs route via a Plugin's Events",
+    "/plugin/index" => "Runs route via a Plugin's Controller"
   ]
 ];
 

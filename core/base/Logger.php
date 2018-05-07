@@ -1,13 +1,11 @@
 <?php
 namespace core\base;
 class Logger extends \core\base\Base{
-  public static function log( $message, $level = 4){
-    if( array_search( $level, \Core::$app->log['levels'] ) ){
+  public static function log( $message, $level = 4, $data = [] ){
+    if( array_search( $level, \Core::$app->log['levels'] ) !== false ){
 
       $fileName = self::getFileName();
-
-      // var_dump( $fileName ); die;
-
+      
       if( !is_dir( dirname( $fileName ) ) ){
         mkdir( dirname( $fileName ), 777, true );
       }
@@ -18,6 +16,7 @@ $message = '{
   "time":'.json_encode( $time ).',
   "message":' . json_encode( $message ) . ',
   "level":'. json_encode( $level ) . '
+  "data":'. json_encode( $data ) . '
 },';
 
       // $message = json_encode( $message );

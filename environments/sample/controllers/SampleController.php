@@ -8,7 +8,10 @@ class SampleController extends \core\web\Controller{
     ] );
   }
   public function actionError( $exception ){
-    var_dump($exception);
+    return $this->render( 'dashboard', [
+      'title' => "SampleController->actionError( \$exception exception )",
+      "message" => $exception->getMessage()
+      ] );
   }
   public function actionMyRouteComponent( $data ){
     return $this->render( 'dashboard', [

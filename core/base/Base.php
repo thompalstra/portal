@@ -14,15 +14,9 @@ class Base{
   }
 
   public function dispatchEvent( \core\base\Event $event ){
-
+    
     $dir = \Core::$app->dir;
     $ds = \Core::$app->ds;
-
-    if( isset( $this->_events[ Base::getSafeEventName( $event->type ) ] ) ){
-      foreach( $this->_events[ Base::getSafeEventName( $event->type ) ] as $callable ){
-
-      }
-    }
 
     foreach( scandir( "{$dir}plugins{$ds}" ) as $company ){
       if( $company !== '.' && $company !== '..' ){
@@ -40,18 +34,6 @@ class Base{
     }
 
     return $event;
-  }
-  public function addEventListener( $eventName, $callable ){
-
-    if( !isset( $this->_events[ Base::getSafeEventName( $eventName ) ] ) ){
-      $this->_events[ Base::getSafeEventName( $eventName ) ] = [];
-    }
-
-    $this->_events[ Base::getSafeEventName( $eventName ) ][] = $callable;
-  }
-  public static function getSafeEventName( $eventName ){
-    $eventName = "on" . str_replace("_", "" , str_replace("-", "", strtolower( $eventName ) ) );
-    return $eventName;
   }
 }
 ?>

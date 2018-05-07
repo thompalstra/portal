@@ -6,11 +6,14 @@ class Setup extends \core\plugin\Setup{
       'route.parse.before' => ['parseRouteBefore'],
       'route.parse.after' => ['parseRouteAfter'],
       'route.handle.before' => ['handleRouteBefore'],
-      'route.handle.after' => ['handleRouteAfter']
+      'route.handle.after' => ['handleRouteAfter'],
+      'action.before' => ['actionBefore'],
+      'render.before' => ['renderBefore'],
+      'render.after' => ['renderAfter'],
     ];
   }
   public static function parseRouteBefore( \core\base\Event $event ){
-    if( \Core::$app->path == '/logout' ){
+    if( \Core::$app->path == '/logout' && \Core::$app->environment->name == 'sample' ){
       \Core::$app->path = '/user/session/logout';
     }
   }
@@ -19,6 +22,12 @@ class Setup extends \core\plugin\Setup{
   public static function handleRouteBefore( \core\base\Event $event ){
   }
   public static function handleRouteAfter( \core\base\Event $event ){
+  }
+  public static function actionBefore( \core\base\Event $event ){
+  }
+  public static function renderBefore( \core\base\Event $event ){
+  }
+  public static function renderAfter( \core\base\Event $event ){
   }
 }
 ?>

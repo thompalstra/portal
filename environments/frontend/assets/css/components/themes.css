@@ -1,0 +1,73 @@
+.reactive-dark,
+.reactive{
+  transition: .3s;
+  cursor: pointer;
+}
+.reactive-dark:hover{
+  background-color: rgba( 0, 0, 0, .05 ) !important;
+}
+.reactive:hover{
+  background-color: rgba( 255, 255, 255, .1 ) !important;
+}
+.reactive-dark:active{
+  background-color: rgba( 0, 0, 0, .1 ) !important;
+}
+.reactive:active{
+  background-color: rgba( 255, 255, 255, .1 ) !important;
+}
+
+.fg-white{
+  color: var( --white );
+}
+.bg-white{
+  background-color: var( --white );
+}
+
+.fg-black{
+  color: var( --black );
+}
+.bg-black{
+  background-color: var( --black );
+}
+
+.fg-dark{
+  color: var( --dark );
+}
+.bg-dark{
+  background-color: var( --dark );
+}
+
+.fg-light{
+  color: var( --light );
+}
+.bg-light{
+  background-color: var( --light );
+}
+
+.fg-action{
+  color: var( --action );
+}
+.bg-action{
+  background-color: var( --action );
+}
+
+.fg-epic{
+  color: var( --epic );
+}
+.bg-epic{
+  background-color: var( --epic );
+}
+
+.fg-success{
+  color: var( --success );
+}
+.bg-success{
+  background-color: var( --success );
+}
+
+.fg-info{
+  color: var( --info );
+}
+.bg-info{
+  background-color: var( --info );
+}

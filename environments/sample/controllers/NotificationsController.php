@@ -2,20 +2,20 @@
 namespace sample\controllers;
 
 class NotificationsController extends \core\web\Controller{
-  public function actionView( $notification ){
-    return $this->render( '/views/sample/dashboard', [
+  public function actionView( $notificationId ){
+    return $this->render( '/environments/sample/views/sample/dashboard', [
       'title' => 'Notifications',
-      'message' => "Managing notification '{$notification}'"
+      'message' => "Managing notification '{$notificationId}'"
     ] );
   }
-  public function actionViewError( $notification ){
-    return $this->render( '/views/sample/dashboard', [
+  public function actionViewError( $notificationId ){
+    return $this->render( '/environments/sample/views/sample/dashboard', [
       'title' => 'Notifications',
-      'message' => "Could not find notification '{$notification}'"
+      'message' => "Could not find notification '{$notificationId}'"
     ] );
   }
   public function actionList( $page = null, $perPage = null ){
-    return $this->render( '/views/sample/dashboard', [
+    return $this->render( '/environments/sample/views/sample/dashboard', [
       'title' => 'Notifications',
       'message' => "Listing notifications. Page = '$page', per-page = '$perPage'"
     ] );
