@@ -1,32 +1,23 @@
-document.ready = function( event ){
-    document.querySelectorAll( '.togglable' ).forEach( ( node ) => {
-      node.addEventListener( 'click', function( event ) {
+document.addEventListener( "DOMContentLoaded", ( event ) => {
+  doc.on( "click", "[data-navigate][href]", function( event ) {
+      event.preventDefault();
+      var target = this;
+      if( this.hasAttribute('data-target') ){
+        target = doc.findOne( this.getAttribute('data-target') );
+      }
+      var url = this.getAttribute('href');
 
-        if( event.target.matches('a') || event.target.closest('a') ){
-          return;
-        }
-
-        var target = this;
-
-        if( node.hasAttribute('data-target') ){
-          target = document.querySelector( node.getAttribute('data-target') );
-        }
-
-        if( target.classList.contains( 'show' ) ){
-          target.classList.remove( 'show' );
-        } else {
-          target.classList.add( 'show' );
-        }
+      target.load( url, function( event ) {
       } );
-    } );
-    document.addEventListener( 'click', function( event ) {
-      if( event.target.matches('a') || event.target.closest('a') ){
-        return;
-      }
-      if( !event.target.matches( '.show, .togglable' ) && !( event.target.closest( '.show, .togglable' ) ) ){
-        document.querySelectorAll( '.show' ).forEach( ( node ) => {
-          node.classList.remove( 'show' );
-        } );
-      }
-    } );
-}
+  } );
+
+  doc.on( "ajax.progress.update", function( event ) {
+    progressElement = doc.findOne('.progress-indicator .progress-value');
+    progressElement.style['width'] = event.progress + "%";
+    if( event.progress == 100 ){
+      progressElement.style['transition'] = 'none';
+      progressElement.style['width'] = '0%';
+      progressElement.style['transition'] = '';
+    }
+  } );
+} );

@@ -10,6 +10,9 @@ return [
       'className' => '\core\web\Environment',
       'default' => 'frontend'
     ],
+    'security' => [
+      'className' => '\core\security\Security'
+    ],
     'controller' => [
       'className' => '\core\web\Controller',
       'default' => 'std',

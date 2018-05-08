@@ -20,10 +20,16 @@ class App{
 
     \Core::$app->getConfigurations();
 
+
+    session_start();
+    \Core::$app->session = &$_SESSION;
+
     $environmentClass = $this->web['environment']['className'];
+    $securityClass = $this->web['security']['className'];
     $controllerClass = $this->web['controller']['className'];
 
     $this->environment = new $environmentClass();
+    $this->security = new $securityClass();
     $this->controller = new $controllerClass();
 
     \Core::$app->getFunctions();
@@ -33,6 +39,10 @@ class App{
     if( strpos( $this->path, '?' ) ){
       $this->path = substr( $this->path, 0, strpos( $this->path, '?' ) );
     }
+
+
+
+
 
     return \Core::$app->handleRoute( Core::$app->parseRoute() );
   }

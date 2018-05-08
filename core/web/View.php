@@ -39,11 +39,11 @@ class View extends \core\base\Base{
 
     if( isset( pathinfo( $file )['extension'] ) ){
       $extension = pathinfo( $file )['extension'];
-      if( file_exists( "{$file}{$extension}" ) ){
-        $this->extension = $extension;
+      if( file_exists( $file ) ){
+        $this->extension = "";
         return $this->output( $this->file, $this->extension, $this->data );
-
       }
+      var_dump( "{$file}{$extension}" );
       return "<pre>Could not find {$file}</pre>";
     } else {
       foreach( $allowedExtensions as $extension ){
@@ -71,18 +71,25 @@ class View extends \core\base\Base{
     return $content;
   }
 
-  public function renderPartial( $fp, $data, $sourceFile ){
+  public function renderPartial( $fp, $data, $sourceFile = null ){
 
     $dir = \Core::$app->dir;
     $ds = \Core::$app->ds;
 
     $environmentDirectory = \Core::$app->environment->directory;
+    $environmentViewDirectory = \Core::$app->environment->viewDirectory;
 
     if( $fp[0] == "/" || $fp[0] == "\\" ){
       $fp = trim( trim( $fp, "\\" ), "/" );
       $partialFilePath = "{$dir}{$fp}";
-    } else {
+    } else if( !empty( $sourceFile ) ) {
       $partialFilePath = "{$sourceFile}{$ds}{$fp}";
+    } else {
+
+      $controllerPath = \Core::$app->controller->path;
+      $controllerId = \Core::$app->controller->id;
+
+      $partialFilePath = "{$dir}{$environmentViewDirectory}{$controllerPath}{$controllerId}{$ds}{$fp}";
     }
 
     $html = $this->renderFile( $partialFilePath, $data );

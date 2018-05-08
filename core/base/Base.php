@@ -12,9 +12,13 @@ class Base{
   public static function className(){
     return get_called_class();
   }
+  public static function shortName(){
+    $parts = explode( "\\", get_called_class() );
+    return $parts[ count( $parts ) - 1 ];
+  }
 
   public function dispatchEvent( \core\base\Event $event ){
-    
+
     $dir = \Core::$app->dir;
     $ds = \Core::$app->ds;
 

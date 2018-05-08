@@ -9,13 +9,13 @@ class Controller extends \core\base\Base{
   }
 
   public function render( $fp, $data = [] ){
-
-    $dir = \Core::$app->dir;
-    $ds = \Core::$app->ds;
-
     $viewClass = \Core::$app->web['view']['className'];
-
     ( new $viewClass() )->render( $fp, $data );
+  }
+
+  public function renderPartial( $fp, $data = [] ){
+    $viewClass = \Core::$app->web['view']['className'];
+    ( new $viewClass() )->renderPartial( $fp, $data );
   }
 
   public function runAction( $actionId, $params = [] ){
@@ -24,6 +24,11 @@ class Controller extends \core\base\Base{
 
     $actionName = "action" . str_replace( " ", "", ucwords( str_replace("-", " ", str_replace("_", " ", $actionId ) ) ) );
     if( method_exists( $this, $actionName ) ){
+      if(  method_exists( $this, 'beforeAction' ) ){
+        if( call_user_func_array( [ $this, 'beforeAction' ], [ $actionName, $params ] ) !== true ){
+          exit();
+        }
+      }
       return call_user_func_array( [ $this, $actionName ], $params );
     }
     return call_user_func_array( [ $this, 'runError' ], [ "Page not found (404.2)" ] );

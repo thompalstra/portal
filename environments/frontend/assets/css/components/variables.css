@@ -1,10 +1,21 @@
 :root{
-  --white: #fff;
   --black: #000;
+  --darker: #101010;
   --dark: #111;
-  --light: #ddd;
-  --action: #3498db;
-  --epic: #9b59b6;
-  --success: #2ecc71;
-  --info: #1abc9c;
+
+  --obsidian: #333;
+
+  --action: #2196f3; /* base */
+  --action-active: #0c88eb;  /* 10% darken */
+  --action-hover: #138ff2;  /* 5% darken */
+
+  --info: #009688; /* base */
+  --info-active: #00877a;  /* 10% darken */
+  --info-hover: #008e81;  /* 5% darken*/
+
+  --light: #f2f2f2;
+  --lighter: #fdfdfd;
+  --white: #fff;
+
+  --orange: #ff6600;
 }
