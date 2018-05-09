@@ -1,16 +1,12 @@
 <?php
 function has_user(){
-  if( isset( \Core::$app->session['username'] ) ){
+  if( isset( \Core::$app->session['user'] ) ){
     return true;
   }
   return false;
 }
 function get_user(){
-  return [
-    'username' => \Core::$app->session['username'],
-    'email' => \Core::$app->session['email'],
-    'sites' => []
-  ];
+  return \Core::$app->session['user'];
 }
 
 \Core::$app->_errors = [];

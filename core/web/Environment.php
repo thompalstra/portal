@@ -14,7 +14,7 @@ class Environment extends \core\base\Base{
     $this->directory = "environments" . DIRECTORY_SEPARATOR . $this->name . DIRECTORY_SEPARATOR;
     $this->controllerDirectory = $this->directory . 'controllers' . DIRECTORY_SEPARATOR;
     $this->viewDirectory = $this->directory . 'views' . DIRECTORY_SEPARATOR;
-    $this->layoutDirectory = $this->directory . 'layouts' . DIRECTORY_SEPARATOR;
+    $this->layoutDirectory = $this->directory . 'views' . DIRECTORY_SEPARATOR . 'layouts' . DIRECTORY_SEPARATOR;
   }
 }
 ?>

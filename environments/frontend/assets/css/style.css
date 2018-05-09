@@ -1,3 +1,9 @@
+.icon,
+.reload,
+.column:empty:after{
+  transition: 250ms;
+}
+
 
 .columns,
 .rows{
@@ -22,7 +28,6 @@
   text-decoration: none;
   text-decoration: none;
 
-  transition: .4s;
 }
 
 .column.actions .icon{
@@ -43,19 +48,22 @@
 }
 
 .columns .column.actions{
-  width: 72px;
-  padding: 12px;
-  flex: 0;
+  padding: 16px;
+  flex: 0 80px;
+  background-color: #222;
 }
-
-.columns .column.settings{
+.columns .column.actions,
+.columns .column.settings,
+.columns .column.notifications-index{
   -webkit-box-shadow: 0px 5px 7.5px 0px rgba(100,100,100,.5);
   -moz-box-shadow: 0px 5px 7.5px 0px rgba(100,100,100,.5);
   box-shadow: 0px 5px 7.5px 0px rgba(100,100,100,.5);
+  position: relative;
+  z-index: 1;
 }
 
 .columns .column.actions .icon{
-  margin-bottom: 12px;
+  margin-bottom: 1rem;
 }
 
 .columns .column.actions .icon:hover{
@@ -65,6 +73,18 @@
 .columns .column.main{
   width: calc( 100% - 72px );
 }
+
+.column.settings-view{
+  padding: 0;
+}
+
+@media ( min-width: 1280px ){
+  .columns .column.notifications-index,
+  .columns .column.settings{
+    flex: 0 300px;
+  }
+}
+
 .progress-indicator{
   position: absolute;
   left: 0;
@@ -91,10 +111,62 @@
   position: absolute;
 }
 
+
+
 @keyframes progressAfter{
   0% {
     transform: translateX( -100% );
   } 100% {
     transform: translateX( 100% );
   }
+}
+.column:empty{
+  position: relative;
+}
+.column:empty:after{
+  content: attr( data-empty-content );
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  padding: 1rem;
+  text-transform: uppercase;
+  color: rgba( 177, 177, 177, .4 );
+  border-radius: 2px;
+  border: 1px dotted rgba( 177, 177, 177, .4 );
+  -webkit-box-shadow: 0px 5px 7.5px 0px rgba(100,100,100,0);
+  -moz-box-shadow: 0px 5px 7.5px 0px rgba(100,100,100,0);
+  box-shadow: 0px 5px 7.5px 0px rgba(100,100,100,0);
+}
+
+.column:empty:hover:after{
+  color: white;
+  font-weight: bold;
+  background-color: #009688;
+  border-style: solid;
+  border-color: #009688;
+  -webkit-box-shadow: 0px 5px 7.5px 0px rgba(100,100,100,.5);
+  -moz-box-shadow: 0px 5px 7.5px 0px rgba(100,100,100,.5);
+  box-shadow: 0px 5px 7.5px 0px rgba(100,100,100,.5);
+}
+
+.reload{
+  border-radius: 100%;
+  padding: 12px;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY( -50%);
+  display: block;
+  cursor: pointer;
+}
+.reload:hover{ background-color: #efefef; }
+.reload:active{ background-color: #e5e5e5; }
+
+.login-wrapper{
+  width: 50%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+
 }

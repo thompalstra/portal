@@ -23,6 +23,8 @@ class View extends \core\base\Base{
 
     $layoutFilePath = "{$dir}{$environmentLayoutDirectory}{$layoutName}";
 
+    // var_dump( $layoutFilePath ); die;
+
     $html = $this->renderFile( $layoutFilePath, [
       'view' => $this->renderFile( $viewFilePath, $data )
     ] );

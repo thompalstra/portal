@@ -8,6 +8,12 @@ class Controller extends \core\base\Base{
     }
   }
 
+  public function json( $data = [] ){
+    header('Content-Type: application/json');
+    echo json_encode( $data );
+    exit();
+  }
+
   public function render( $fp, $data = [] ){
     $viewClass = \Core::$app->web['view']['className'];
     ( new $viewClass() )->render( $fp, $data );
@@ -25,7 +31,7 @@ class Controller extends \core\base\Base{
     $actionName = "action" . str_replace( " ", "", ucwords( str_replace("-", " ", str_replace("_", " ", $actionId ) ) ) );
     if( method_exists( $this, $actionName ) ){
       if(  method_exists( $this, 'beforeAction' ) ){
-        if( call_user_func_array( [ $this, 'beforeAction' ], [ $actionName, $params ] ) !== true ){
+        if( call_user_func_array( [ $this, 'beforeAction' ], [ $actionId, $params ] ) !== true ){
           exit();
         }
       }

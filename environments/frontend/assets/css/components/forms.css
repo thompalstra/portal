@@ -1,0 +1,129 @@
+input[type="checkbox"].switch:after,
+input[type="checkbox"].default:before,
+input[type="checkbox"].default:checked:before,
+input[type="checkbox"].default:after{
+  transition: 250ms;
+}
+
+input[type="text"].default,
+input[type="password"].default{
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0 0 0;
+  box-sizing: border-box;
+  background-color: rgba(255,255,255,.8);
+  border: 0;
+  outline: 0;
+}
+
+input[type="checkbox"].switch{
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+  position: relative;
+
+  width: 40px;
+  height: 20px;
+  margin: 0 10px;
+  outline: 0;
+  cursor: pointer;
+}
+input[type="checkbox"].switch:before{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 10px;
+  margin: 5px 0;
+  background-color: rgba(0,0,0,.3);
+}
+input[type="checkbox"].switch:after{
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #888;
+  border-radius: 100%;
+}
+input[type="checkbox"].switch:checked:after{
+  background-color: #2196f3;
+  left: 10px;
+}
+
+input[type="checkbox"].default{
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+  position: relative;
+
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  overflow: hidden;
+  margin: 0;
+  outline: 0;
+  cursor: pointer;
+}
+input[type="checkbox"].default:before{
+  content: "";
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+input[type="checkbox"].default:checked:before{
+  border: 1px solid #2196f3;
+  background-color: #2196f3;
+}
+
+input[type="checkbox"].default:after{
+  content: "check";
+  font-family: "Material Icons";
+  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  font-weight: bold;
+
+  background-color: transparent;
+
+  position: absolute;
+
+  transform: scale( .5 );
+  opacity: 0;
+
+  color: #ddd;
+}
+
+
+input[type="checkbox"].default:checked:after{
+  transform: scale( 1 );
+  opacity: 1;
+  color: white;
+}
+
+input[type="color"].default{
+
+}
+
+hr.default{
+  margin: 1rem;
+  border-color: rgba(0,0,0,.1);
+  border-width: 1px;
+  border-bottom: 0;
+}
+
+.input-row{
+  transition: .4s;
+  padding: 1rem;
+}
+.input-row:hover{
+  background-color: #efefef;
+}
+.input-row:active{
+  background-color: #e5e5e5;
+}

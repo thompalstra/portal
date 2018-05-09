@@ -13,6 +13,10 @@
   --info-active: #00877a;  /* 10% darken */
   --info-hover: #008e81;  /* 5% darken*/
 
+  --warning: #cf000f;
+  --warning-active: #ba000d;
+  --warning-hover: #c4000e;
+
   --light: #f2f2f2;
   --lighter: #fdfdfd;
   --white: #fff;

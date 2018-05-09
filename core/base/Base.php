@@ -4,7 +4,7 @@ class Base{
 
   public $_events = [];
 
-  public function __constructor( $options = [] ){
+  public function __construct( $options = [] ){
     foreach( $options as $attributeName => $attributeValue ){
       $this->$attributeName = $attributeValue;
     }

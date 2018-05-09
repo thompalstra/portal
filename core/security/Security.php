@@ -25,5 +25,43 @@ class Security extends \core\base\Base{
   public function matchCsrfToken( $csrfToken ){
     return ( $this->getCsrfToken() == $csrfToken );
   }
+  public function generateToken( $length = 32, $separator = "-", $groupSize = 4, $ranges = [] ){
+
+    if( empty( $ranges ) ){
+      $ranges = [
+        [ "0", '9' ],
+        [ "a", "z" ],
+        [ "A", "Z" ]
+      ];
+    }
+
+    $charset = [];
+
+    foreach( $ranges as $range ){
+      $charset = array_merge( $charset, range( $range[0], $range[1] ) );
+    }
+
+    $count = 0;
+    $output = "";
+
+    while( $count < $length ){
+      $output .= $charset [ rand( 0, count( $charset ) - 1 ) ];
+      $count++;
+    }
+
+    $outputs = []; $count = 0;
+
+    while( $count < $length ){
+      $outputs[] = substr( $output, $count, $groupSize );
+      $count += $groupSize;
+    }
+
+    if( $separator ){
+      return implode( $separator, $outputs );
+    }
+    return implode( "", $outputs );
+
+
+  }
 }
 ?>

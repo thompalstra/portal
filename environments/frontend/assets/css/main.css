@@ -4,12 +4,13 @@
 
 @import "components/components.css";
 @import "components/variables.css";
+@import "components/forms.css";
 
 html, body{
   padding: 0;
   margin: 0;
   font-family: Roboto, Lato, Open Sans, sans-serif;
-  
+
   letter-spacing: normal;
   text-transform: none;
   -webkit-font-feature-settings: 'liga';

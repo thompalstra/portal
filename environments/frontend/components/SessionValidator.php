@@ -6,7 +6,7 @@ class SessionValidator extends \core\base\Base{
     $success = false;
     $message = "Session expired. Please login";
 
-    if( isset( \Core::$app->session['username'] ) ){
+    if( isset( \Core::$app->session['user']['username'] ) ){
       $success = true;
       $message = "Session is valid";
     }

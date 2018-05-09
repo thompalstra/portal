@@ -32,8 +32,22 @@ extend( app ).with( {
       url: location.href,
       responseType: 'document',
       data: {},
-      requestHeaders: []
+      headers: []
     }
+  },
+  serialize: function(obj, prefix) {
+    var str = [],
+      p;
+    for (p in obj) {
+      if (obj.hasOwnProperty(p)) {
+        var k = prefix ? prefix + "[" + p + "]" : p,
+          v = obj[p];
+        str.push((v !== null && typeof v === "object") ?
+          app.serialize(v, k) :
+          encodeURIComponent(k) + "=" + encodeURIComponent(v));
+      }
+    }
+    return str.join("&");
   },
   xhr: {
     req: null,
@@ -59,8 +73,8 @@ extend( app ).with( {
       if( !obj.hasOwnProperty( "url" ) ){
         obj.url = app.defaults.xhr.url;
       }
-      if( !obj.hasOwnProperty( "requestHeaders" ) ){
-        obj.requestHeaders = app.defaults.xhr.requestHeaders;
+      if( !obj.hasOwnProperty( "headers" ) ){
+        obj.headers = app.defaults.xhr.headers;
       }
 
       if( !obj.hasOwnProperty( "responseType" ) ){
@@ -82,13 +96,23 @@ extend( app ).with( {
       var xhr = app.xhr.req = new XMLHttpRequest();
 
       xhr.obj = obj;
+
+
+      if( xhr.obj.method.toUpperCase() == "GET" ){
+          xhr.obj.url = xhr.obj.url + "?" + app.serialize( xhr.obj.data );
+          xhr.obj.data = {};
+      } else if( xhr.obj.method.toUpperCase() == "POST" ){
+          // xhr.obj.data = app.serialize( xhr.obj.data );
+          xhr.obj.data = app.serialize( xhr.obj.data );
+      }
+
       xhr.open( xhr.obj.method, xhr.obj.url );
       xhr.responseType = xhr.obj.responseType;
 
       xhr.setRequestHeader( "X-Requested-With", "XMLHttpRequest" );
 
-      for( var header in xhr.obj.requestHeaders ){
-        xhr.setRequestHeader( header, xhr.obj.requestHeaders[header] );
+      for( var header in xhr.obj.headers ){
+        xhr.setRequestHeader( header, xhr.obj.headers[header] );
       }
       xhr.onreadystatechange = function( event ){
         if( this.getResponseHeader( "Content-Location" ) ){
@@ -111,10 +135,17 @@ extend( app ).with( {
     }
   },
   post: function( obj ){
-
+    var obj = app.xhr.createXhrObject( obj );
+    obj.method = "POST";
+    obj.headers = {
+      "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
+    };
+    app.xhr.send( obj );
   },
   get: function( obj ){
-
+    var obj = app.xhr.createXhrObject( obj );
+    obj.method = "GET";
+    app.xhr.send( obj );
   }
 }, true )
 
@@ -156,11 +187,28 @@ extend( Document, HTMLElement, derp ).with( {
 
     doc.do( "ajax.progress.update", { progress: "15" } );
 
+    var filterTarget;
+
+    if( url.indexOf( " " ) > -1 ){
+      filterTarget = url.substring( url.indexOf( " " ) + 1, url.length );
+      url = url.substring( 0, url.indexOf( " " ) );
+    }
+
     app.xhr.send( {
       url: url,
       onsuccess: function( response, xhr, event ){
         doc.do( "ajax.progress.update", { progress: "33" } );
-        this.innerHTML = response.head.innerHTML + response.body.innerHTML;
+
+        if( filterTarget ){
+          var target = response.querySelector( filterTarget );
+          if( target ){
+            this.innerHTML = target.innerHTML;
+          }
+        } else {
+          this.innerHTML = response.head.innerHTML + response.body.innerHTML;
+        }
+
+
         doc.do( "ajax.progress.update", { progress: "66" } );
         this.findAll( 'script' ).forEach( ( originalScriptElement ) => {
           var newScriptElement = this.appendChild(  document.createElement( 'script' ) );
