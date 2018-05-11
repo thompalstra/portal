@@ -23,12 +23,12 @@ Morbi vehicula volutpat erat et mattis. Nullam vel lacus sed mi porttitor auctor
 Mauris facilisis dui tristique felis euismod consequat. In tempor in massa nec dapibus. Aliquam nec euismod ipsum, in molestie velit. Curabitur gravida nisl sit amet nunc venenatis vehicula. Proin auctor rhoncus tellus, cursus facilisis ante tincidunt ut. Nulla facilisi. Phasellus in libero in ipsum molestie lacinia non et metus. Nulla aliquam interdum odio id accumsan. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus commodo mollis volutpat. Aliquam erat volutpat. Sed efficitur, diam et pulvinar auctor, mi leo ultricies tellus, quis euismod arcu tortor at arcu. Aenean convallis orci urna, id tempus quam lacinia vel.",
       "icon" => "info"
     ],
-    // "3" => [
-    //   "id" => 3,
-    //   "title" => "Portal V0.00.01",
-    //   "description" => "<h1>Hoorah!</h1>",
-    //   "icon" => "info"
-    // ]
+    "3" => [
+      "id" => 3,
+      "title" => "Portal V0.00.01",
+      "description" => "<h1>Hoorah!</h1>",
+      "icon" => "info"
+    ]
   ];
 
   public function beforeAction( $actionId, $params = [] ){
@@ -45,8 +45,12 @@ Mauris facilisis dui tristique felis euismod consequat. In tempor in massa nec d
   }
 
   public function actionDashboard(){
-    return $this->renderPartial( "dashboard", [
-      "notification" => [
+
+    $notification = null;
+
+    if( !isset( \Core::$app->session["user"]["logged_in"] ) ) {
+      \Core::$app->session["user"]["logged_in"] = true;
+      $notification = [
         "title" => [
           "img" => "/environments/frontend/assets/img/dnovo-icon.png",
           "label" => "Dnovo"
@@ -56,7 +60,15 @@ Mauris facilisis dui tristique felis euismod consequat. In tempor in massa nec d
           "description" => "Succesvol ingelogd",
           "img" => "/environments/frontend/assets/img/dnovo-icon.png",
         ],
-      ]
+        "options" => [
+          "dismiss" => "1"
+        ]
+      ];
+    }
+
+
+    return $this->renderPartial( "dashboard", [
+      "notification" => $notification
     ] );
   }
   public function actionSites(){
@@ -98,14 +110,12 @@ Mauris facilisis dui tristique felis euismod consequat. In tempor in massa nec d
     ] ); exit();
   }
   public function actionAjaxUpdateDeveloperMode(){
-
     $developer = boolval( $_GET['developer'] );
-
     \Core::$app->session['user']['developer'] = $developer;
     echo json_encode( [
        "success" => true,
        "data" => [
-         "message" => "Updated developer mode to $developer",
+         "message" => "Updated developer mode to {$developer}",
        ]
    ] ); exit();
   }

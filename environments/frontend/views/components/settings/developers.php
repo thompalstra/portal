@@ -1,4 +1,7 @@
-<h2 class="p-1 m-0">Developers</h2>
+<div class="list-title">
+  <i class="material-icons pull-right unload" data-unload data-target=".column.settings-view">arrow_back</i>
+  <h4><?=\Core::t( "app", "Settings" )?></h4>
+</div>
 <form class="form">
   <label>
     <div class="input-row">
@@ -11,7 +14,7 @@
   <div class="api-token-container <?=$isDeveloper ? "" : "hidden"?>">
     <div class="input-row">
       <label class="no-select">
-        API token <button id='generate-api-token' class="button button-raised action mh-1">Generate</button>
+        API token <button id='generate-api-token' class="button button-raised action">Generate</button>
       </label>
       <input name="[api]token" type="text" class="default" value="dsdsadsadasd932jr032j08h93tg39hgwfsdf"></input>
     </div>

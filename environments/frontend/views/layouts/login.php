@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-  <?= render_partial( "partials/main/header" ) ?>
+  <?php render_partial("main/header") ?>
   <body>
     <main id='main' role='main'>
-      <?= $view ?>
+      <?=$view?>
     </main>
-    <?= render_partial( "partials/main/footer" ) ?>
+    <?php render_partial("main/footer") ?>
   </body>
 </html>

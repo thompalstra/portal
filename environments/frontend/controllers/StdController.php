@@ -29,9 +29,11 @@ class StdController extends \core\web\Controller{
   }
 
   public function actionLogin(){
+    $this->layout = "login";
+    \Core::$app->params['title'] = \Core::t( "app", "Login" );
+
     $user = new User();
 
-    \Core::$app->params['title'] = \Core::t( "app", "Login" );
 
     if( $_POST ){
       if( \Core::$app->security->matchCsrfToken( $_POST['_csrf'] ) ){

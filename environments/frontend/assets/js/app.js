@@ -27,12 +27,15 @@ var derp = {
 
 extend( app ).with( {
   defaults: {
-    xhr: {
+    response: {
+      body: {},
+      headers: {},
+      cache: "no-cache",
+      credentials: "same-origin",
       method: "GET",
-      url: location.href,
-      responseType: 'document',
-      data: {},
-      headers: []
+      mode: "cors",
+      redirect: "follow",
+      referrer: "no-referrer"
     }
   },
   serialize: function(obj, prefix) {
@@ -49,107 +52,51 @@ extend( app ).with( {
     }
     return str.join("&");
   },
-  xhr: {
-    req: null,
-    createXhrObject: function( obj ){
-      if( typeof obj == "string" ){
-        obj = {
-          url: obj
-        };
+  responseOptions: function( options ){
+    if( !options.hasOwnProperty( "body" ) ){
+      options.body = JSON.stringify({});
+    } else {
+      if( options.body instanceof FormData ){
+        var object = {};
+        options.body.forEach(function(value, key){
+            object[key] = value;
+        });
+        options.body = object;
       }
-
-      if( !obj.hasOwnProperty( "onsuccess" ) ){
-        obj.onsuccess = function(){}
-      }
-      if( !obj.hasOwnProperty( "onerror" ) ){
-        obj.onerror = function(){}
-      }
-      if( !obj.hasOwnProperty( "onalways" ) ){
-        obj.onalways = function(){}
-      }
-      if( !obj.hasOwnProperty( "method" ) ){
-        obj.method = app.defaults.xhr.method;
-      }
-      if( !obj.hasOwnProperty( "url" ) ){
-        obj.url = app.defaults.xhr.url;
-      }
-      if( !obj.hasOwnProperty( "headers" ) ){
-        obj.headers = app.defaults.xhr.headers;
-      }
-
-      if( !obj.hasOwnProperty( "responseType" ) ){
-        obj.responseType = app.defaults.xhr.responseType;
-      }
-
-      if( !obj.hasOwnProperty( "data" ) ){
-        obj.data = app.defaults.xhr.data;
-      }
-
-      return obj;
-    },
-    send: function( obj ){
-      var obj = app.xhr.createXhrObject( obj );
-      if( app.xhr.req ){
-        app.xhr.req.abort();
-      }
-
-      var xhr = app.xhr.req = new XMLHttpRequest();
-
-      xhr.obj = obj;
-
-
-      if( xhr.obj.method.toUpperCase() == "GET" ){
-          xhr.obj.url = xhr.obj.url + "?" + app.serialize( xhr.obj.data );
-          xhr.obj.data = {};
-      } else if( xhr.obj.method.toUpperCase() == "POST" ){
-          // xhr.obj.data = app.serialize( xhr.obj.data );
-          xhr.obj.data = app.serialize( xhr.obj.data );
-      }
-
-      xhr.open( xhr.obj.method, xhr.obj.url );
-      xhr.responseType = xhr.obj.responseType;
-
-      xhr.setRequestHeader( "X-Requested-With", "XMLHttpRequest" );
-
-      for( var header in xhr.obj.headers ){
-        xhr.setRequestHeader( header, xhr.obj.headers[header] );
-      }
-      xhr.onreadystatechange = function( event ){
-        if( this.getResponseHeader( "Content-Location" ) ){
-          console.log("Redirect from XML request using Content-Location header.");
-          location.href = this.getResponseHeader( "Content-Location" );
-          return;
-        }
-        if( this.readyState == 4 ){
-          app.xhr.req = null;
-          if( this.status == 200 ){
-            this.obj.onsuccess.call( this, this.response, this, event );
-          } else {
-            this.obj.onerror.call( this, event );
-          }
-          this.obj.onalways.call( this, event );
-        }
-      }.bind( xhr );
-      xhr.onerror = xhr.obj.onerror;
-      xhr.send( xhr.obj.data );
+      options.body = app.serialize( options.body );
     }
+    if( !options.hasOwnProperty( "headers" ) ){
+      options.headers = app.defaults.response.headers;
+    }
+    if( !options.hasOwnProperty( "cache" ) ){
+      options.cache = app.defaults.response.cache;
+    }
+    if( !options.hasOwnProperty( "credentials" ) ){
+      options.credentials = app.defaults.response.credentials;
+    }
+    if( !options.hasOwnProperty( "method" ) ){
+      options.method = app.defaults.response.method;
+    }
+    if( !options.hasOwnProperty( "mode" ) ){
+      options.mode = app.defaults.response.mode;
+    }
+    if( !options.hasOwnProperty( "redirect" ) ){
+      options.redirect = app.defaults.response.redirect;
+    }
+    if( !options.hasOwnProperty( "referrer" ) ){
+      options.referrer = app.defaults.response.referrer;
+    }
+    return options
   },
-  post: function( obj ){
-    var obj = app.xhr.createXhrObject( obj );
-    obj.method = "POST";
-    obj.headers = {
-      "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
-    };
-    app.xhr.send( obj );
-  },
-  get: function( obj ){
-    var obj = app.xhr.createXhrObject( obj );
-    obj.method = "GET";
-    app.xhr.send( obj );
+  post: function( url, responseOptions ){
+    var opt = app.responseOptions( responseOptions );
+    opt.method = "POST";
+    opt.headers[ "content-type" ] = 'application/x-www-form-urlencoded';
+    return fetch( url, opt );
   }
 }, true )
 
-extend( Document, HTMLElement, derp ).with( {
+extend( Document, HTMLElement ).with( {
   findOne: function( q ){
     return this.querySelector( q );
   },
@@ -168,7 +115,7 @@ extend( Document, HTMLElement, derp ).with( {
     this.dispatchEvent( event );
   },
   on: function( eventTypes, b, c, d ){
-    eventTypes.split(" ").forEach( ( eventType ) => {
+    eventTypes.split(" ").forEach(  ( eventType ) => {
       if( typeof b === "function" ){
         this.addEventListener( eventType, b );
       } else {
@@ -184,8 +131,7 @@ extend( Document, HTMLElement, derp ).with( {
     } );
   },
   load: function( url, onsuccess ){
-
-    doc.do( "ajax.progress.update", { progress: "15" } );
+    document.do( "ajax.progress.update", { progress: "15" } );
 
     var filterTarget;
 
@@ -194,34 +140,36 @@ extend( Document, HTMLElement, derp ).with( {
       url = url.substring( 0, url.indexOf( " " ) );
     }
 
-    app.xhr.send( {
-      url: url,
-      onsuccess: function( response, xhr, event ){
-        doc.do( "ajax.progress.update", { progress: "33" } );
+    var headers = new Headers();
+    headers.append("x-requested-with", "xmlhttprequest");
 
-        if( filterTarget ){
-          var target = response.querySelector( filterTarget );
-          if( target ){
-            this.innerHTML = target.innerHTML;
-          }
-        } else {
-          this.innerHTML = response.head.innerHTML + response.body.innerHTML;
-        }
+    return fetch( url, {
+      method: "GET",
+      mode: "no-cors",
+      cache: 'no-cache',
+      credentials: 'same-origin',
+      headers: headers
+    } )
+    .then( response => response.text() )
+    .then( response => ( new DOMParser() ).parseFromString( response , "text/html") )
+    .then( function( response ) {
+      var target = this.element;
+      if( this.filterTarget ){
+        target.innerHTML = response.findOne( this.filterTarget ).innerHTML;
+      } else {
+        target.innerHTML = response.head.innerHTML + response.body.innerHTML;
+      }
+      target.findAll( 'script' ).forEach( ( originalScriptElement ) => {
+        var newScriptElement = target.appendChild(  document.createElement( 'script' ) );
+        newScriptElement.innerHTML = originalScriptElement.innerHTML;
+        originalScriptElement.remove();
+      } );
 
-
-        doc.do( "ajax.progress.update", { progress: "66" } );
-        this.findAll( 'script' ).forEach( ( originalScriptElement ) => {
-          var newScriptElement = this.appendChild(  document.createElement( 'script' ) );
-          newScriptElement.innerHTML = originalScriptElement.innerHTML;
-          originalScriptElement.remove();
-        } );
-        doc.do( "ajax.progress.update", { progress: "75" } );
-        if( typeof onsuccess === "function" ){
-          onsuccess.call( this, response, xhr, event );
-        }
-        doc.do( "ajax.progress.update", { progress: "100" } );
-      }.bind( this )
-    } );
+      return response;
+    }.bind( {
+      element: this,
+      filterTarget: filterTarget
+    } ) );
   }
 } );
 

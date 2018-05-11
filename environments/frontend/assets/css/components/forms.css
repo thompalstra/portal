@@ -107,8 +107,58 @@ input[type="checkbox"].default:checked:after{
 }
 
 input[type="color"].default{
-
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #333;
+  outline-width: 0;
+  border: 0;
+  margin: 0;
+  width: 0;
+  height: 0;
+  background-color: transparent;
 }
+
+/* Chrome styles */
+input[type="color"].default::-webkit-color-swatch-wrapper {
+  padding: 0; /* Remove browser's padding around color picker */
+}
+input[type="color"].default::-webkit-color-swatch {
+  border: none; /* Remove browser's border around color in color picker */
+}
+
+/* Firefox styles */
+input[type="color"].default::-moz-color-swatch {
+  border: none; /* Remove browser's border around color in color picker */
+}
+input[type="color"].default::-moz-focus-inner {
+  border: none; /* Remove browser's padding around color in color picker */
+  padding: 0; /* Remove browser's padding around color in color picker */
+}
+
+input[type="color"].default:after{
+  content: "";
+    background-color: currentColor;
+    border-radius: 100%;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    bottom: 1rem;
+    margin: auto 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid rgba(100,100,100,.5);
+    -webkit-box-shadow: 0px 5px 7.5px 0px rgba(100,100,100,.1);
+    -moz-box-shadow: 0px 5px 7.5px 0px rgba(100,100,100,.1);
+    box-shadow: 0px 5px 7.5px 0px rgba(100,100,100,.1);
+    transition: 250ms;
+}
+input[type="color"].default:hover:after{
+  -webkit-box-shadow: 0px 5px 7.5px 0px rgba(100,100,100,.5);
+  -moz-box-shadow: 0px 5px 7.5px 0px rgba(100,100,100,.5);
+  box-shadow: 0px 5px 7.5px 0px rgba(100,100,100,.5);
+}
+
 
 hr.default{
   margin: 1rem;

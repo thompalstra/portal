@@ -53,6 +53,7 @@ class SettingsController extends \core\web\Controller{
           ]
         ];
       }
+
       return $this->json( [
         "success" => $success,
         "data" => $data,

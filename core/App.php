@@ -12,6 +12,7 @@ class App{
 
     include( "Core.php" );
     include( "autoload.php" );
+
     Core::$app = &$this;
 
     foreach( include( dirname( __DIR__ ) . DIRECTORY_SEPARATOR . 'config.php' ) as $attributeName => $attributeValue ){
@@ -19,7 +20,6 @@ class App{
     }
 
     \Core::$app->getConfigurations();
-
 
     session_start();
     \Core::$app->session = &$_SESSION;
@@ -39,10 +39,6 @@ class App{
     if( strpos( $this->path, '?' ) ){
       $this->path = substr( $this->path, 0, strpos( $this->path, '?' ) );
     }
-
-
-
-
 
     return \Core::$app->handleRoute( Core::$app->parseRoute() );
   }

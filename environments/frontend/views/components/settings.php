@@ -1,6 +1,8 @@
 <div class="columns">
   <div class="column settings">
-    <h2 class="list-title"><?=\Core::t( "app", "Settings" )?></h2>
+    <div class="list-title">
+      <h4><?=\Core::t( "app", "Settings" )?></h4>
+    </div>
     <div class='list'>
       <div class='items'>
         <a data-navigate data-target=".column.settings-view" href="/components/settings/themes">
@@ -16,5 +18,5 @@
       </div>
     </div>
   </div>
-  <div class="column settings-view" data-empty-content="Nothing to see here"></div>
+  <div class="column settings-view" data-empty-content="<?=Core::t( "app", "Nothing to display" )?>"></div>
 </div>
