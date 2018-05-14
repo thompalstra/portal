@@ -53,6 +53,9 @@ extend( app ).with( {
     return str.join("&");
   },
   responseOptions: function( options ){
+    if( !options.hasOwnProperty( "method" ) ){
+      options.method = app.defaults.response.method;
+    }
     if( !options.hasOwnProperty( "body" ) ){
       options.body = JSON.stringify({});
     } else {
@@ -66,16 +69,13 @@ extend( app ).with( {
       options.body = app.serialize( options.body );
     }
     if( !options.hasOwnProperty( "headers" ) ){
-      options.headers = app.defaults.response.headers;
+      options.headers = new Headers();
     }
     if( !options.hasOwnProperty( "cache" ) ){
       options.cache = app.defaults.response.cache;
     }
     if( !options.hasOwnProperty( "credentials" ) ){
       options.credentials = app.defaults.response.credentials;
-    }
-    if( !options.hasOwnProperty( "method" ) ){
-      options.method = app.defaults.response.method;
     }
     if( !options.hasOwnProperty( "mode" ) ){
       options.mode = app.defaults.response.mode;
@@ -86,12 +86,28 @@ extend( app ).with( {
     if( !options.hasOwnProperty( "referrer" ) ){
       options.referrer = app.defaults.response.referrer;
     }
+
+    options.headers.append("x-requested-with", "xmlhttprequest");
+
+    console.log('default headers');
+
+    if( options.method.toLowerCase() == "get"  ){
+      options.body = undefined;
+    }
+
     return options
   },
   post: function( url, responseOptions ){
+    responseOptions.method = "POST";
     var opt = app.responseOptions( responseOptions );
-    opt.method = "POST";
     opt.headers[ "content-type" ] = 'application/x-www-form-urlencoded';
+
+    return fetch( url, opt );
+  },
+  get: function( url, responseOptions ){
+    var opt = app.responseOptions( responseOptions );
+    opt.method = "GET";
+
     return fetch( url, opt );
   }
 }, true )
@@ -140,19 +156,30 @@ extend( Document, HTMLElement ).with( {
       url = url.substring( 0, url.indexOf( " " ) );
     }
 
-    var headers = new Headers();
-    headers.append("x-requested-with", "xmlhttprequest");
+    var headers = new Headers({
+        "X-Requested-With": "XMLHttpRequest"
+    });
+
 
     return fetch( url, {
       method: "GET",
-      mode: "no-cors",
       cache: 'no-cache',
       credentials: 'same-origin',
       headers: headers
     } )
-    .then( response => response.text() )
-    .then( response => ( new DOMParser() ).parseFromString( response , "text/html") )
     .then( function( response ) {
+      if( typeof response.headers.get("Content-Location") == "string" ) {
+        location.href = response.headers.get("Content-Location");
+      }
+      document.do( "ajax.progress.update", { progress: "45" } );
+      return response.text();
+    } )
+    .then( function( response ) {
+      document.do( "ajax.progress.update", { progress: "60" } );
+      return ( new DOMParser() ).parseFromString( response , "text/html");
+    } )
+    .then( function( response ) {
+      document.do( "ajax.progress.update", { progress: "80" } );
       var target = this.element;
       if( this.filterTarget ){
         target.innerHTML = response.findOne( this.filterTarget ).innerHTML;
@@ -164,7 +191,7 @@ extend( Document, HTMLElement ).with( {
         newScriptElement.innerHTML = originalScriptElement.innerHTML;
         originalScriptElement.remove();
       } );
-
+      document.do( "ajax.progress.update", { progress: "100" } );
       return response;
     }.bind( {
       element: this,

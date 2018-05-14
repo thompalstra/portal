@@ -6,8 +6,9 @@ spl_autoload_register(function( $className ) {
   $directories = [ "", "environments", "plugins" ];
 
   foreach( $directories as $directory ){
-    if( file_exists( "{$dir}{$directory}{$ds}{$className}.php" ) ){
-      require "{$dir}{$directory}{$ds}{$className}.php";
+    $fp = str_replace( "\\", $ds, str_replace( "/", $ds, "{$dir}{$directory}{$ds}{$className}.php" ) );
+    if( file_exists( $fp) ){
+      require $fp;
     }
   }
 

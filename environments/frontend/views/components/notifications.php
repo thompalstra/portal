@@ -2,7 +2,10 @@
   <div class="column notifications-index">
     <div class="list-title">
       <h4><?=\Core::t( "app", "Notifications" )?></h4>
+      <span class="popover left middle">
       <i id="reload-notifications" class="material-icons pull-right reload">refresh</i>
+      <span class="pop"><?=\Core::t( "app", "Refresh" )?></span>
+      </span>
     </div>
     <div class='list'>
       <div class='items'>

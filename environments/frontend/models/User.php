@@ -6,12 +6,13 @@ class User extends \core\base\Model{
   public $password;
   public $theme = [
     "background" => "#f2f2f2",
-    "sidebar_background" => "#222",
-    "sidebar_button_background" => "#333",
-    "sidebar_button_foreground" => "#fff",
-    "sidebar_button_active_background" => "#ff6600",
-    "sidebar_button_active_foreground" => "#fff"
+    "sidebar_background" => "#222222",
+    "sidebar_button_background" => "#333333",
+    "sidebar_button_foreground" => "#ffffff",
+    "active_background" => "#ff6600",
+    "active_foregroundground" => "#ffffff"
   ];
+  public $token;
 
   public function validate(){
 
@@ -37,6 +38,7 @@ class User extends \core\base\Model{
     \Core::$app->session['user'] = [
       'username' => $this->username,
       "theme" => $this->theme,
+      "token" => $this->token,
       'developer' => false
     ];
     return true;

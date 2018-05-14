@@ -37,6 +37,7 @@ class Controller extends \core\base\Base{
       }
       return call_user_func_array( [ $this, $actionName ], $params );
     }
+
     return call_user_func_array( [ $this, 'runError' ], [ "Page not found (404.2)" ] );
   }
 
@@ -47,7 +48,7 @@ class Controller extends \core\base\Base{
     $controllerId = \Core::$app->web['controller']['default'];
     $actionId = \Core::$app->web['controller']['actionError'];
     $controllerName = str_replace( " ", "", ucwords( str_replace("-", " ", str_replace("_", " ", $controllerId ) ) ) ) . "Controller";
-    $controllerNameSpace = str_replace("/", "\\", "{$environmentName}/controllers/{$controllerName}" );
+    $controllerNameSpace = "\\" . str_replace("/", "\\", "{$environmentName}/controllers/{$controllerName}" );
     $actionName = "action" . str_replace( " ", "", ucwords( str_replace("-", " ", str_replace("_", " ", $actionId ) ) ) );
     $path = "";
 
@@ -60,6 +61,7 @@ class Controller extends \core\base\Base{
       ] );
       return call_user_func_array( [ \Core::$app->controller, 'actionError' ], [ 'exception' => new \Exception( $message, 404 ) ] );
     }
+    var_dump( $environmentName, $controllerNameSpace ); die;
     echo "Error running error"; exit();
   }
 }

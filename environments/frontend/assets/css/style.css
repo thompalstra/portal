@@ -54,6 +54,8 @@ html, body{
   padding: 8px;
   flex: 0 50px;
   background-color: #222;
+  position: relative;
+  z-index: 750;
 }
 .columns .column.actions,
 .columns .column.settings,
@@ -62,7 +64,7 @@ html, body{
   -moz-box-shadow: 0px 5px 7.5px 0px rgba(100,100,100,.5);
   box-shadow: 0px 5px 7.5px 0px rgba(100,100,100,.5);
   position: relative;
-  z-index: 1;
+  z-index: 500;
 }
 
 .columns .column.actions .icon{
@@ -164,6 +166,10 @@ html, body{
   position: absolute;
 }
 
+.list.themes .items .item{
+  padding-right: 40px;
+}
+
 
 
 @keyframes progressAfter{
@@ -194,12 +200,14 @@ html, body{
 }
 .column.main .columns .column{
   position: absolute;
-  overflow: auto;
+  /*overflow: auto;*/
+  overflow: visible;
   top: 0; left: 0; right: 0; bottom: 0;
   background-color: #f2f2f2;
+  z-index: 100;
 }
 .column.main .columns .column:last-child{
-  z-index: 1;
+  z-index: 150;
 }
 
 @media ( min-width: 768px ){

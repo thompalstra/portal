@@ -8,16 +8,7 @@
     <button id="theme-settings-form-reset" class="button button-flat"><?=\Core::t( "app", "Reset" )?></button>
   </div>
   <div class="list themes">
-    <div class="items"><label>
-      <div class="item">
-        <span class="icon"><i class="material-icons">color_lens</i></span> <?=\Core::t( "app", "Background" )?>
-        <input type="color"
-          name="Theme[params][background]"
-          class="default mh-1"
-          value="<?=$theme->params["background"]?>"
-          style="color:<?=$theme->params["background"]?>"/>
-      </div>
-    </label>
+    <div class="items">
       <label>
         <div class="item">
           <span class="icon"><i class="material-icons">color_lens</i></span> <?=\Core::t( "app", "Sidebar background" )?>
@@ -30,7 +21,7 @@
       </label>
       <label>
         <div class="item">
-          <span class="icon"><i class="material-icons">color_lens</i></span> <?=\Core::t( "app", "Sidebar button background" )?>
+          <span class="icon"><i class="material-icons">color_lens</i></span> <?=\Core::t( "app", "Button background" )?>
           <input type="color"
             name="Theme[params][sidebar_button_background]"
             class="default mh-1"
@@ -40,7 +31,7 @@
       </label>
       <label>
         <div class="item">
-          <span class="icon"><i class="material-icons">color_lens</i></span> <?=\Core::t( "app", "Sidebar button foreground" )?>
+          <span class="icon"><i class="material-icons">color_lens</i></span> <?=\Core::t( "app", "Button foreground" )?>
           <input type="color"
             name="Theme[params][sidebar_button_foreground]"
             class="default mh-1"
@@ -50,22 +41,22 @@
       </label>
       <label>
         <div class="item">
-          <span class="icon"><i class="material-icons">color_lens</i></span> <?=\Core::t( "app", "Sidebar button (active) background" )?>
+          <span class="icon"><i class="material-icons">color_lens</i></span> <?=\Core::t( "app", "Button active background" )?>
           <input type="color"
-            name="Theme[params][sidebar_button_active_background]"
+            name="Theme[params][active_background]"
             class="default mh-1"
-            value="<?=$theme->params["sidebar_button_active_background"]?>"
-            style="color:<?=$theme->params["sidebar_button_active_background"]?>"/>
+            value="<?=$theme->params["active_background"]?>"
+            style="color:<?=$theme->params["active_background"]?>"/>
         </div>
       </label>
       <label>
         <div class="item">
-          <span class="icon"><i class="material-icons">color_lens</i></span> <?=\Core::t( "app", "Sidebar button (active) foreground" )?>
+          <span class="icon"><i class="material-icons">color_lens</i></span> <?=\Core::t( "app", "Button active foreground" )?>
           <input type="color"
-            name="Theme[params][sidebar_button_active_foreground]"
+            name="Theme[params][active_foregroundground]"
             class="default mh-1"
-            value="<?=$theme->params["sidebar_button_active_foreground"]?>"
-            style="color:<?=$theme->params["sidebar_button_active_foreground"]?>"/>
+            value="<?=$theme->params["active_foregroundground"]?>"
+            style="color:<?=$theme->params["active_foregroundground"]?>"/>
         </div>
       </label>
     </div>
@@ -78,26 +69,24 @@
   } );
   doc.findOne( "#theme-settings-form-reset" ).on( "click", function( event ) {
     event.preventDefault();
-    var c = confirm( "<?=\Core::t( "app", "Are you sure you want to reset your theme to the default values?" )?>" );
-
-    if( c ){
-      app.post( {
-        url: "/components/settings/themes",
-        responseType: "json",
-        data: {
+    if( confirm( "<?=\Core::t( "app", "Are you sure you want to reset your theme to the default values?" )?>" ) ){
+      event.preventDefault();
+      app.post( "/components/settings/themes", {
+        body: {
           "reset": "1"
         },
-        onsuccess: function( response, xhr, event ){
-          if( response.success == true ){
-            new NotificationPopUp( doc.findOne( ".column.settings-view"  ), response.data.notification );
-          }
+      } )
+      .then( response => response.json() )
+      .then( function( response ) {
+        if( response.success == true ) {
+           new NotificationPopUp( doc.findOne( ".column.settings-view"  ), response.data.notification );
         }
       } );
     }
   } );
   doc.findOne( "#theme-settings-form" ).on( "submit", function( event ) {
     event.preventDefault();
-    app.post(  "/components/settings/themes", {
+    app.post( "/components/settings/themes", {
       body: new FormData( this ),
     } )
     .then( response => response.json() )

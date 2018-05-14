@@ -5,7 +5,7 @@ class Logger extends \core\base\Base{
     if( array_search( $level, \Core::$app->log['levels'] ) !== false ){
 
       $fileName = self::getFileName();
-      
+
       if( !is_dir( dirname( $fileName ) ) ){
         mkdir( dirname( $fileName ), 777, true );
       }

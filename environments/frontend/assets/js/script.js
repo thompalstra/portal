@@ -6,7 +6,7 @@ document.addEventListener( "DOMContentLoaded", function ( event ) {
         target = doc.findOne( this.getAttribute('data-target') );
       }
       var url = this.getAttribute( "href" );
-      
+
       target.load( url ).then( function ( response ) { } );
   } );
 
@@ -37,6 +37,7 @@ document.addEventListener( "DOMContentLoaded", function ( event ) {
   } )
 
   doc.on( "ajax.progress.update", function( event ) {
+    console.log(event.type);
     progressElement = doc.findOne('.progress-indicator .progress-value');
     progressElement.style['width'] = event.progress + "%";
     if( event.progress == 100 ){
@@ -126,7 +127,7 @@ NotificationPopUp.prototype.create = function( options ){
   }
 
   this.element.removeTimeout = null;
-  this.element.timeout = setTimeout( ( event ) => { this.close(); }, 5000 );
+  // this.element.timeout = setTimeout( ( event ) => { this.close(); }, 5000 );
 
   this.registerEventListeners();
 }

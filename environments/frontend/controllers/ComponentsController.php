@@ -2,6 +2,21 @@
 namespace frontend\controllers;
 class ComponentsController extends \core\web\Controller{
 
+  public function beforeAction( $actionId, $params = [] ){
+    $result = \frontend\components\SessionValidator::isValid();
+    if( $result['success'] == false ){
+      if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
+        header("Content-Location: /login"); exit();
+      } else {
+        header("Location: /login"); exit();
+      }
+    }
+    if( !isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
+      header("Location: /"); exit();
+    }
+    return true;
+  }
+
   public $notifications = [
     "1" => [
       "id" => 1,
@@ -30,19 +45,6 @@ Mauris facilisis dui tristique felis euismod consequat. In tempor in massa nec d
       "icon" => "info"
     ]
   ];
-
-  public function beforeAction( $actionId, $params = [] ){
-    $result = \frontend\components\SessionValidator::isValid();
-    if( $result['success'] == false ){
-      $redirect = "/login";
-      if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
-        header("Content-Location: $redirect"); exit();
-      } else {
-        header("Location: $redirect"); exit();
-      }
-    }
-    return true;
-  }
 
   public function actionDashboard(){
 
@@ -101,11 +103,14 @@ Mauris facilisis dui tristique felis euismod consequat. In tempor in massa nec d
 
 
   public function actionAjaxGenerateApiToken(){
+
+    $token = \Core::$app->security->generateToken( 32, "-", 4, [] );
+    \Core::$app->session["user"]["token"] = $token;
      echo json_encode( [
         "success" => true,
         "data" => [
           "message" => "Token generated",
-          "token" => \Core::$app->security->generateToken( 32, "-", 4, [] )
+          "token" => $token
         ]
     ] ); exit();
   }
